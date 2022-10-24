@@ -19,8 +19,8 @@ public class Util {
                 Properties settings = new Properties();
                 settings.put(Environment.DRIVER, "com.mysql.jdbc.Driver");
                 settings.put(Environment.URL, "jdbc:mysql://localhost:3306/lesson1_1_3");
-                settings.put(Environment.USER, "boris");
-                settings.put(Environment.PASS, "5655321");
+                settings.put(Environment.USER, "");
+                settings.put(Environment.PASS, "");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.MySQLDialect");
 
                 settings.put(Environment.SHOW_SQL, "true");
